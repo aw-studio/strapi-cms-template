@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_navigation_navigation_items",
+  "info": {
+    "displayName": "Navigation-Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "string"
+    },
+    "page": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page.page"
+    },
+    "Icon": {
+      "type": "text",
+      "regex": "<svg\\b[^>]*?(?:viewBox=\\\"(\\b[^\"]*)\\\")?>([\\s\\S]*?)<\\/svg>"
+    },
+    "slug": {
+      "type": "string",
+      "regex": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "unique": true
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "page",
+        "slug",
+        "link"
+      ],
+      "default": "page",
+      "required": true
+    }
+  }
+}

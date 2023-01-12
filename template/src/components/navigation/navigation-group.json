@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_navigation_navigation_groups",
+  "info": {
+    "displayName": "Navigation-Group"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navigation.navigation-item"
+    }
+  }
+}

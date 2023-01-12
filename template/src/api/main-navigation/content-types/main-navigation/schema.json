@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "main_navigations",
+  "info": {
+    "singularName": "main-navigation",
+    "pluralName": "main-navigations",
+    "displayName": "Main Navigation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Items": {
+      "type": "dynamiczone",
+      "components": [
+        "navigation.navigation-item",
+        "navigation.navigation-group",
+        "navigation.navigation-megamenu"
+      ]
+    }
+  }
+}
