@@ -1,0 +1,31 @@
+{
+	"name": "@aw-studio/strapi-template-cms",
+	"version": "0.1",
+	"description": "Strapi CMS template",
+	"keywords": [
+		"strapi",
+		"template",
+		"cms"
+	],
+	"homepage": "https://github.com/aw-studio/strapi-cms-template",
+	"bugs": {
+		"url": "https://github.com/aw-studio/strapi-cms-template/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aw-studio/strapi-cms-template.git"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Jannes Behrens",
+		"email": "jannes@aw-studio.de",
+		"url": "https://aw-studio.de"
+	},
+	"maintainers": [
+		{
+			"name": "Strapi team",
+			"email": "hi@strapi.io",
+			"url": "https://strapi.io"
+		}
+	]
+}
